@@ -1,1 +1,11 @@
 KPL 
+
+Jurnal
+Kode HTML yang saya buat merupakan implementasi dari kalkulator sederhana yang memiliki tampilan yang mirip dengan desain yang diberikan dari tugas jurnal.  Kalkulator ini menggunakan HTML untuk struktur, CSS untuk tampilan, dan JavaScript untuk menangani input dan operasi matematis.  Untuk menampilkan hasil perhitungan, kalkulator memiliki beberapa tombol: tombol angka (0-9), tombol operator (+), dan tombol "=" di layar output.
+Kode CSS mengatur posisi tombol dan layar kalkulator untuk tampilan yang teratur.  Tombol operator berada di sebelah kanan dan diatur agar tombol "+" sejajar dengan angka 3, sehingga bagian angka disusun dalam grid berukuran 3 x 3.  Dengan menggunakan onclick, tombol-tombol ini menangkap interaksi pengguna.
+Logika kalkulator dioperasikan menggunakan JavaScript.  Fungsi appendNumber() menambahkan angka yang diklik ke layar kalkulator, dan fungsi appendOperator() memastikan bahwa operator hanya dapat ditambahkan jika input sebelumnya adalah angka. Fungsi calculateResult() menggunakan eval() untuk menilai ekspresi matematika yang telah dimasukkan dan menampilkan hasilnya.  Jika ada kesalahan perhitungan, layar akan menampilkan "Kesalahan".
+
+tugas pendahuluan
+Kode HTML yang saya buat merupakan implementasi dari form GUI sederhana. Setelah menekan tombol "Submit", pengguna dapat memasukkan nama dan menampilkannya kembali di layar.  Struktur inti terdiri dari elemen <input> yang digunakan untuk menerima input pengguna, tombol <button> yang digunakan untuk mengirimkan input, dan elemen <p> yang digunakan untuk menampilkan hasil output.
+Kode CSS mengatur tampilan form agar ditampilkan di tengah halaman dengan gaya yang rapi.  Untuk membuatnya lebih menarik, konten utama memiliki efek bayangan, border, dan ukuran 300px.  Agar lebih mudah digunakan, input dan tombol memiliki lebar penuh.
+Logika pengambilan input dan penampilan dilakukan oleh fungsi JavaScript TampilkanNama().  Fungsi ini mengambil nilai teks ketika tombol ditekan dan memeriksa apakah tidak ada ruang kosong. Jika ada nama yang dimasukkan, teks akan ditampilkan dalam format "Halo [nama]." Jika tidak, pesan peringatan akan muncul yang meminta pengguna untuk mengisi nama terlebih dahulu.

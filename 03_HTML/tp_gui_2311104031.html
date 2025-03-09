@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form GUI Praktikum</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .container {
+            width: 300px;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+        }
+        input, button {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Masukkan Nama</h2>
+        <input type="text" id="namaInput" placeholder="Masukkan Nama">
+        <button onclick="tampilkanNama()">Submit</button>
+        <p id="output"></p>
+    </div>
+
+    <script>
+        function tampilkanNama() {
+            let nama = document.getElementById("namaInput").value;
+            let output = document.getElementById("output");
+            if (nama.trim() !== "") {
+                output.textContent = "Halo " + nama;
+            } else {
+                output.textContent = "Silakan masukkan nama terlebih dahulu";
+            }
+        }
+    </script>
+</body>
+</html>

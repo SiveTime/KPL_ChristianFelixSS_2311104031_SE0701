@@ -1,1 +1,11 @@
 KPL 
+
+Tugas Pendahuluan
+Kode Pos: Teknik table-driven digunakan dalam kode ini untuk menyimpan dan mengambil kode pos berdasarkan nama kelurahan.  Karena data kode pos disimpan dalam bentuk objek, pencarian dapat dilakukan dengan cepat. Untuk mendapatkan kode pos berdasarkan nama kelurahan, gunakan metode getKodePos(namaKelurahan).  Ada juga cara lain untuk menampilkan daftar kelurahan tanpa kode pos. Ini terjadi ketika program utama meminta nama pengguna dan menampilkan kode pos yang sesuai dengan kelurahan yang dimasukkan.
+
+Kode DoorMachine: kode ini menggunakan teknik konstruksi berbasis status untuk mensimulasikan perubahan status pintu, asumsi awalnya pintu dalam keadaan terkunci. Setiap perubahan status menghasilkan output yang menunjukkan apakah pintu masih terkunci atau tidak.  Metode ini diciptakan untuk memungkinkan transisi antara keadaan terkunci dan terbuka dengan memanggil fungsi yang sesuai saat pintu dikunci atau dibuka. Ini memungkinkan program utama untuk mensimulasikan perubahan state.
+
+Tugas Jurnal
+Kode Buah: KodeBuah mirip mirip dengan KodePos digunakan untuk mendaftar buah dan kode buahnya.  Kode ini memungkinkan pengguna untuk mencari kode buah berdasarkan nama buah dengan menggunakan objek sebagai tabel pencarian.  Pencarian dibuat tidak case-sensitive dengan mengubah input menjadi huruf kecil sebelum pencocokan, sehingga lebih fleksibel.  Ada juga cara lain untuk menampilkan daftar nama buah tanpa kode buahnya dan dengan huruf pertama kapital.
+
+Posisi Karakter Game: Kode ini menggunakan metode pembangunan berbasis tanah untuk mensimulasikan perubahan posisi karakter dalam game sesuai dengan tombol yang ditekan. Karakter dapat berdiri, jongkok, tengkurap, atau terbang. Tombol yang ditekan (S untuk turun dan W untuk naik) memungkinkan Anda mengubah posisi. Selain itu, ada aturan tambahan yang didasarkan pada hasil NIM % 3, yang mengubah output tambahan ketika tombol ditekan atau ketika terjadi perubahan state tertentu. Untuk memastikan bahwa semua kondisi berjalan sesuai aturan, program utama mensimulasikan berbagai perubahan posisi.

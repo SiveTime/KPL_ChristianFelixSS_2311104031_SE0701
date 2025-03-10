@@ -5,12 +5,6 @@ class PosisiKarakterGame {
     }
 
     ubahState(stateBaru) {
-        if (this.state === "Terbang" && stateBaru === "Jongkok" && this.nimMod === 2) {
-            console.log("Posisi landing");
-        }
-        if (this.state === "Berdiri" && stateBaru === "Terbang" && this.nimMod === 2) {
-            console.log("Posisi take off");
-        }
         if (stateBaru === "Berdiri" && this.nimMod === 1) {
             console.log("Posisi standby");
         }

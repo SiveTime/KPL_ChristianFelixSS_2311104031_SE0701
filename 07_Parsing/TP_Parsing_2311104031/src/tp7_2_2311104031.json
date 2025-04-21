@@ -1,0 +1,33 @@
+{
+    "courses": [
+      {
+        "code": "CRI2C4",
+        "name": "Konstruksi Perangkat Lunak"
+      },
+      {
+        "code": "IF184501",
+        "name": "Manajemen Proyek"
+      },
+      {
+        "code": "IF184504",
+        "name": "Interaksi Manusia dan Komputer"
+      },
+      {
+        "code": "IF184502",
+        "name": "Pemrograman Berbasis Kerangka Kerja"
+      },
+      {
+        "code": "IF184506",
+        "name": "Etika Profesi"
+      },
+      {
+        "code": "IF184507",
+        "name": "Pengujian Perangkat Lunak"
+      },
+      {
+        "code": "IF184508",
+        "name": "Rekayasa Kebutuhan"
+      }
+    ]
+  }
+  

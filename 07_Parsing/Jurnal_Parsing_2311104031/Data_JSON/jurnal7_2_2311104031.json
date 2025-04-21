@@ -1,0 +1,26 @@
+{
+    "members": [
+      {
+        "firstName": "Maulana",
+        "lastName": "Kaka",
+        "gender": "male",
+        "age": 20,
+        "nim": "2311104034"
+      },
+      {
+        "firstName": "Zulfa",
+        "lastName": "Mustafa",
+        "gender": "male",
+        "age": 20,
+        "nim": "2311104010"
+      },
+      {
+        "firstName": "Tsaqif",
+        "lastName": "Hisyam",
+        "gender": "Male",
+        "age": 19,
+        "nim": "2311104031"
+      }
+    ]
+  }
+  

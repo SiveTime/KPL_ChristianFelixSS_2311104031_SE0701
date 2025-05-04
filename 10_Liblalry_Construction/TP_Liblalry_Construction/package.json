@@ -1,0 +1,12 @@
+{
+    "name": "tpmodul10_2311104031",
+    "version": "1.0.0",
+    "description": "Tugas Pendahuluan Modul 10 Node.js",
+    "main": "main.js",
+    "scripts": {
+      "start": "node main.js"
+    },
+    "author": "Christian Felix",
+    "license": "MIT"
+  }
+  

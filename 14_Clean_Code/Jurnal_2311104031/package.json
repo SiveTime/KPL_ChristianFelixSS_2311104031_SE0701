@@ -1,0 +1,16 @@
+{
+  "name": "modul14_2311104031",
+  "version": "1.0.0",
+  "description": "Tugas Jurnal Modul 14 - Performance Analysis, Unit Testing, Debugging",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "jest"
+  },
+  "author": "Christian Felix",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^36.3.1",
+    "jest": "^29.7.0"
+  }
+}

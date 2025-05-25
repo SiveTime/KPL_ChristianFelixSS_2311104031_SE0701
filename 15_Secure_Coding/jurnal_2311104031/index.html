@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Modul 15 - Login & Register</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    .form-section {
+      margin-bottom: 30px;
+      border: 1px solid #ccc;
+      padding: 15px;
+      border-radius: 8px;
+    }
+    input {
+      display: block;
+      margin-bottom: 10px;
+      padding: 8px;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    button {
+      padding: 10px 20px;
+      margin-top: 10px;
+    }
+    #result {
+      margin-top: 15px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h2>Registrasi</h2>
+  <div class="form-section">
+    <input type="text" id="registerUsername" placeholder="Username" />
+    <input type="password" id="registerPassword" placeholder="Password" />
+    <button onclick="handleRegister()">Daftar</button>
+  </div>
+
+  <h2>Login</h2>
+  <div class="form-section">
+    <input type="text" id="loginUsername" placeholder="Username" />
+    <input type="password" id="loginPassword" placeholder="Password" />
+    <button onclick="handleLogin()">Masuk</button>
+  </div>
+
+  <div id="result"></div>
+
+  <script src="renderer.js"></script>
+</body>
+</html>

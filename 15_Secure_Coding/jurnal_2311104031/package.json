@@ -1,0 +1,14 @@
+{
+  "name": "modul15-secure-coding",
+  "version": "1.0.0",
+  "description": "Modul 15 - Login dan Registrasi Secure Coding",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "2311104031",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^28.1.0"
+  }
+}
